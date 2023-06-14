@@ -6,4 +6,4 @@ set -e
 
 # ./bazel-resources/tools/build-all.sh
 
-find . -name exercise.sh -maxdepth 2 -execdir ./exercise.sh \;
+find . -name exercise.sh -maxdepth 2 -execdir echo \; -execdir pwd \; -execdir echo  \; -execdir ./exercise.sh \;

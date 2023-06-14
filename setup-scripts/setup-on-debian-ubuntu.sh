@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Oasis Digital, https://oasisdigital.com
-# Kyle Cordes, kyle.cordes@oasisdigital.com
-
 # This is a rough script to set up a Linux machine for use with Bazel.
 # Lightly tested. Most people will want something different in some way.
 
